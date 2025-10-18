@@ -12,6 +12,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.pluxai.jetpackcourse.composables.Greeting
+import com.pluxai.jetpackcourse.composables.ImageWithText
+import com.pluxai.jetpackcourse.composables.core_components.ColorfulString
+import com.pluxai.jetpackcourse.composables.core_components.SimpleText
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +23,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackCourseTheme {
-                Greeting("Hello Vishal!!")
+//                Greeting("Hello Vishal!!")
+//                ImageWithText()
+//                SimpleText()
+                ColorfulString()
             }
         }
     }

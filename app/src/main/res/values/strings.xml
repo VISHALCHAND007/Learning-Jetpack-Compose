@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Jetpack Course</string>
+    <string name="skeleton">Skeleton Image</string>
 </resources>
