@@ -14,7 +14,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.pluxai.jetpackcourse.composables.Greeting
 import com.pluxai.jetpackcourse.composables.ImageWithText
 import com.pluxai.jetpackcourse.composables.core_components.ColorfulString
+import com.pluxai.jetpackcourse.composables.core_components.HorizontalScrollingText
 import com.pluxai.jetpackcourse.composables.core_components.SimpleText
+import com.pluxai.jetpackcourse.composables.core_components.TextEllipsis
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -26,7 +28,9 @@ class MainActivity : ComponentActivity() {
 //                Greeting("Hello Vishal!!")
 //                ImageWithText()
 //                SimpleText()
-                ColorfulString()
+//                ColorfulString()
+//                HorizontalScrollingText()
+                TextEllipsis()
             }
         }
     }

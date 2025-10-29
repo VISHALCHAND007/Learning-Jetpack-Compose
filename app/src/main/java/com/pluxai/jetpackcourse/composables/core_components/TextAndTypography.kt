@@ -1,5 +1,7 @@
 package com.pluxai.jetpackcourse.composables.core_components
 
+import android.graphics.Paint
+import androidx.compose.foundation.basicMarquee
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Text
@@ -15,6 +17,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.sp
 import com.pluxai.jetpackcourse.R
@@ -66,6 +69,35 @@ fun ColorfulString() {
                     append("Android Development is fun.")
                 }
             },
+        )
+    }
+}
+
+@Composable
+fun HorizontalScrollingText() {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = "Experimenting with horizontal scrolling text.",
+            modifier = Modifier.basicMarquee(),
+            fontSize = 40.sp
+        )
+    }
+}
+
+@Composable
+fun TextEllipsis() {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = "Long text experiment ".repeat(6),
+            fontSize = 30.sp,
+            maxLines = 3,
+            overflow = TextOverflow.Ellipsis
         )
     }
 }
