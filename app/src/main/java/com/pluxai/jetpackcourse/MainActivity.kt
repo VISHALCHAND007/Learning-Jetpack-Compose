@@ -16,10 +16,12 @@ import com.pluxai.jetpackcourse.composables.ImageWithText
 import com.pluxai.jetpackcourse.composables.core_components.ColorfulString
 import com.pluxai.jetpackcourse.composables.core_components.HorizontalScrollingText
 import com.pluxai.jetpackcourse.composables.core_components.PasswordTextField
+import com.pluxai.jetpackcourse.composables.core_components.SelectableText
 import com.pluxai.jetpackcourse.composables.core_components.SimpleOutlinedTextField
 import com.pluxai.jetpackcourse.composables.core_components.SimpleText
 import com.pluxai.jetpackcourse.composables.core_components.TextEllipsis
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
+import javax.crypto.SecretKey
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +36,8 @@ class MainActivity : ComponentActivity() {
 //                HorizontalScrollingText()
 //                TextEllipsis()
 //                SimpleOutlinedTextField()
-                PasswordTextField()
+//                PasswordTextField()
+                SelectableText()
             }
         }
     }
