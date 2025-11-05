@@ -23,6 +23,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.pluxai.jetpackcourse.composables.Greeting
 import com.pluxai.jetpackcourse.composables.ImageWithText
 import com.pluxai.jetpackcourse.composables.bottomSheet.BottomSheetExample
+import com.pluxai.jetpackcourse.composables.cards.CardSample
 import com.pluxai.jetpackcourse.composables.core_components.AnnotatedStringWithUrl
 import com.pluxai.jetpackcourse.composables.core_components.Button
 import com.pluxai.jetpackcourse.composables.core_components.ColorfulString
@@ -69,7 +70,8 @@ class MainActivity : ComponentActivity() {
 //                ConstraintLayoutSample()
 //                LazyColumnSample()
 //                LazyRowSample()
-                BottomSheetExample()
+//                BottomSheetExample()
+                CardSample()
             }
         }
     }
