@@ -36,6 +36,8 @@ import com.pluxai.jetpackcourse.composables.core_components.TextHyperlink
 import com.pluxai.jetpackcourse.composables.layouts.BoxSample
 import com.pluxai.jetpackcourse.composables.layouts.ColumnSample
 import com.pluxai.jetpackcourse.composables.layouts.ConstraintLayoutSample
+import com.pluxai.jetpackcourse.composables.layouts.LazyColumnSample
+import com.pluxai.jetpackcourse.composables.layouts.LazyRowSample
 import com.pluxai.jetpackcourse.composables.layouts.RowSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 import javax.crypto.SecretKey
@@ -63,7 +65,9 @@ class MainActivity : ComponentActivity() {
 //                ColumnSample()
 //                RowSample()
 //                BoxSample()
-                ConstraintLayoutSample()
+//                ConstraintLayoutSample()
+//                LazyColumnSample()
+                LazyRowSample()
             }
         }
     }
