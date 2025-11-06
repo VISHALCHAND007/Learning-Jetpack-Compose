@@ -53,7 +53,7 @@ fun CardContent() {
             modifier = Modifier.size(100.dp)
         )
         Column(modifier = Modifier.padding(10.dp)) {
-            Text("Name: Vishal Chand", color = Color.White)
+            Text("Name: Vishal Chand")
             Text("Designation: Android developer")
         }
     }
