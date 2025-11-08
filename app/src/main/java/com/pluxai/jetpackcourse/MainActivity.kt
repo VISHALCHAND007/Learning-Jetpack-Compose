@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.pluxai.jetpackcourse.composables.checkbox.CheckBoxSample
+import com.pluxai.jetpackcourse.composables.dialog.DialogWithImage
 import com.pluxai.jetpackcourse.composables.inputChips.InputChipSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
@@ -36,8 +37,9 @@ class MainActivity : ComponentActivity() {
 //                LazyRowSample()
 //                BottomSheetExample()
 //                CardSample()
-                CheckBoxSample()
-                InputChipSample()
+//                CheckBoxSample()
+//                InputChipSample()
+                DialogWithImage()
             }
         }
     }
