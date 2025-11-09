@@ -8,6 +8,7 @@ import com.pluxai.jetpackcourse.composables.checkbox.CheckBoxSample
 import com.pluxai.jetpackcourse.composables.dialog.DialogWithImage
 import com.pluxai.jetpackcourse.composables.floatingButton.FloatingButtonSample
 import com.pluxai.jetpackcourse.composables.inputChips.InputChipSample
+import com.pluxai.jetpackcourse.composables.menus.MenuSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -41,7 +42,8 @@ class MainActivity : ComponentActivity() {
 //                CheckBoxSample()
 //                InputChipSample()
 //                DialogWithImage()
-                FloatingButtonSample()
+//                FloatingButtonSample()
+                MenuSample()
             }
         }
     }
