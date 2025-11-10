@@ -1,6 +1,5 @@
 package com.pluxai.jetpackcourse.composables.scaffold
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -8,7 +7,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.BottomAppBar
-import androidx.compose.material3.BottomAppBarDefaults.containerColor
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
