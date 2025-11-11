@@ -10,6 +10,7 @@ import com.pluxai.jetpackcourse.composables.floatingButton.FloatingButtonSample
 import com.pluxai.jetpackcourse.composables.inputChips.InputChipSample
 import com.pluxai.jetpackcourse.composables.menus.MenuSample
 import com.pluxai.jetpackcourse.composables.navigationDrawer.NavigationDrawerSample
+import com.pluxai.jetpackcourse.composables.progressBar.ProgressIndicatorSample
 import com.pluxai.jetpackcourse.composables.scaffold.ScaffoldSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
@@ -47,7 +48,8 @@ class MainActivity : ComponentActivity() {
 //                FloatingButtonSample()
 //                MenuSample()
 //                ScaffoldSample()
-                NavigationDrawerSample()
+//                NavigationDrawerSample()
+                ProgressIndicatorSample()
             }
         }
     }
