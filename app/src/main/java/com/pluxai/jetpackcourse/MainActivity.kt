@@ -4,14 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.pluxai.jetpackcourse.composables.checkbox.CheckBoxSample
-import com.pluxai.jetpackcourse.composables.dialog.DialogWithImage
-import com.pluxai.jetpackcourse.composables.floatingButton.FloatingButtonSample
-import com.pluxai.jetpackcourse.composables.inputChips.InputChipSample
-import com.pluxai.jetpackcourse.composables.menus.MenuSample
-import com.pluxai.jetpackcourse.composables.navigationDrawer.NavigationDrawerSample
-import com.pluxai.jetpackcourse.composables.progressBar.ProgressIndicatorSample
-import com.pluxai.jetpackcourse.composables.scaffold.ScaffoldSample
+import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefreshExample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -49,7 +42,8 @@ class MainActivity : ComponentActivity() {
 //                MenuSample()
 //                ScaffoldSample()
 //                NavigationDrawerSample()
-                ProgressIndicatorSample()
+//                ProgressIndicatorSample()
+                PullToRefreshExample()
             }
         }
     }
