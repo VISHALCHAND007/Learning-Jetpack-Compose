@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefSample2
 import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefreshExample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
@@ -43,7 +44,8 @@ class MainActivity : ComponentActivity() {
 //                ScaffoldSample()
 //                NavigationDrawerSample()
 //                ProgressIndicatorSample()
-                PullToRefreshExample()
+//                PullToRefreshExample()
+                PullToRefSample2()
             }
         }
     }
