@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefSample2
 import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefreshExample
 import com.pluxai.jetpackcourse.composables.searchBar.SearchBarExample
+import com.pluxai.jetpackcourse.composables.segmentedBtn.SegmentedButtonSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -47,9 +48,15 @@ class MainActivity : ComponentActivity() {
 //                ProgressIndicatorSample()
 //                PullToRefreshExample()
 //                PullToRefSample2()
-                SearchBarExample()
+//                SearchBarExample()
+                SegmentedButtonSample()
             }
         }
+    }
+    companion object {
+        const val WALK = "Walk"
+        const val RIDE = "Ride"
+        const val DRIVE = "Drive"
     }
 }
 
