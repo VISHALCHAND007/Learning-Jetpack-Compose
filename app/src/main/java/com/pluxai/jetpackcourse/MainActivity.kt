@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefSample2
 import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefreshExample
+import com.pluxai.jetpackcourse.composables.searchBar.SearchBarExample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,7 +46,8 @@ class MainActivity : ComponentActivity() {
 //                NavigationDrawerSample()
 //                ProgressIndicatorSample()
 //                PullToRefreshExample()
-                PullToRefSample2()
+//                PullToRefSample2()
+                SearchBarExample()
             }
         }
     }
