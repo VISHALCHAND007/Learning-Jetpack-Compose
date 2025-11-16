@@ -44,7 +44,7 @@ fun SliderSample() {
             valueRange = 0f..30f
         )
         Text(
-            text = "${sliderPosition.toInt()} out of 30.",
+            text = "${sliderPosition.toInt()} out of 30",
             color = Color.Gray
         )
     }

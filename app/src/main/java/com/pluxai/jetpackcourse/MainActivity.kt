@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.pluxai.jetpackcourse.composables.slider.SliderSample
 import com.pluxai.jetpackcourse.composables.segmentedBtn.SegmentedButtonSample
+import com.pluxai.jetpackcourse.composables.snackbar.SnackBarSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -48,7 +49,8 @@ class MainActivity : ComponentActivity() {
 //                PullToRefSample2()
 //                SearchBarExample()
 //                SegmentedButtonSample()
-                SliderSample()
+//                SliderSample()
+                SnackBarSample()
             }
         }
     }
