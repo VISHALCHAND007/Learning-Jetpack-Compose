@@ -4,9 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefSample2
-import com.pluxai.jetpackcourse.composables.pullToRefresh.PullToRefreshExample
-import com.pluxai.jetpackcourse.composables.searchBar.SearchBarExample
+import com.pluxai.jetpackcourse.composables.slider.SliderSample
 import com.pluxai.jetpackcourse.composables.segmentedBtn.SegmentedButtonSample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
@@ -49,7 +47,8 @@ class MainActivity : ComponentActivity() {
 //                PullToRefreshExample()
 //                PullToRefSample2()
 //                SearchBarExample()
-                SegmentedButtonSample()
+//                SegmentedButtonSample()
+                SliderSample()
             }
         }
     }
