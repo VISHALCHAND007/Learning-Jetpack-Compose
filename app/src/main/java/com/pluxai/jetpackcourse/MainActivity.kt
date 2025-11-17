@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.pluxai.jetpackcourse.composables.badges.BadgesSample
+import com.pluxai.jetpackcourse.composables.datePicker.DatePickerExample
 import com.pluxai.jetpackcourse.composables.slider.SliderSample
 import com.pluxai.jetpackcourse.composables.segmentedBtn.SegmentedButtonSample
 import com.pluxai.jetpackcourse.composables.snackbar.SnackBarSample
@@ -54,7 +55,8 @@ class MainActivity : ComponentActivity() {
 //                SliderSample()
 //                SnackBarSample()
 //                BadgesSample()
-                SwitchExample()
+//                SwitchExample()
+                DatePickerExample()
             }
         }
     }
