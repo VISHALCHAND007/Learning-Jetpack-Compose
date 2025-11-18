@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material3.DatePicker
@@ -62,7 +64,8 @@ fun DatePickerExample() {
                         if (upEvent != null)
                             isDialogVisible = true
                     }
-                }
+                },
+            keyboardOptions = KeyboardOptions(showKeyboardOnFocus = false)
         )
         if (isDialogVisible) {
             ShowDatePicker(

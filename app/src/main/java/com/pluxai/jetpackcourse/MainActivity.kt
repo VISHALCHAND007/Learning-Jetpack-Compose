@@ -10,6 +10,7 @@ import com.pluxai.jetpackcourse.composables.slider.SliderSample
 import com.pluxai.jetpackcourse.composables.segmentedBtn.SegmentedButtonSample
 import com.pluxai.jetpackcourse.composables.snackbar.SnackBarSample
 import com.pluxai.jetpackcourse.composables.switchExample.SwitchExample
+import com.pluxai.jetpackcourse.composables.timePicker.TimePickerExample
 import com.pluxai.jetpackcourse.ui.theme.JetpackCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -56,7 +57,8 @@ class MainActivity : ComponentActivity() {
 //                SnackBarSample()
 //                BadgesSample()
 //                SwitchExample()
-                DatePickerExample()
+//                DatePickerExample()
+                TimePickerExample()
             }
         }
     }
