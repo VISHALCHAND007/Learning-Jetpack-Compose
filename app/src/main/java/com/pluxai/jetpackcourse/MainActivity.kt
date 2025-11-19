@@ -7,6 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import com.pluxai.jetpackcourse.composables.badges.BadgesSample
 import com.pluxai.jetpackcourse.composables.bottomNavBar.BottomNavigationBarSample
 import com.pluxai.jetpackcourse.composables.datePicker.DatePickerExample
+import com.pluxai.jetpackcourse.composables.navigation.HomeScreen
+import com.pluxai.jetpackcourse.composables.navigation.NavigationExample
 import com.pluxai.jetpackcourse.composables.slider.SliderSample
 import com.pluxai.jetpackcourse.composables.segmentedBtn.SegmentedButtonSample
 import com.pluxai.jetpackcourse.composables.snackbar.SnackBarSample
@@ -62,7 +64,9 @@ class MainActivity : ComponentActivity() {
 //                DatePickerExample()
 //                TimePickerExample()
 //                BottomNavigationBarSample()
-                TopAppBarSample()
+//                TopAppBarSample()
+//                NavigationExample()
+                NavigationExample()
             }
         }
     }
