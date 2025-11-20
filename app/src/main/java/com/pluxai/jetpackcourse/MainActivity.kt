@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.pluxai.jetpackcourse.composables.animation.AnimationSample
 import com.pluxai.jetpackcourse.composables.badges.BadgesSample
 import com.pluxai.jetpackcourse.composables.bottomNavBar.BottomNavigationBarSample
 import com.pluxai.jetpackcourse.composables.datePicker.DatePickerExample
@@ -66,7 +67,8 @@ class MainActivity : ComponentActivity() {
 //                BottomNavigationBarSample()
 //                TopAppBarSample()
 //                NavigationExample()
-                NavigationExample()
+//                NavigationExample()
+                AnimationSample()
             }
         }
     }
